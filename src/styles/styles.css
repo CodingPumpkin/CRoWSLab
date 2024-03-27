@@ -1,0 +1,76 @@
+MainWindow {
+	background-image: url("bg3.png"); 
+	background-repeat: no-repeat; 
+	background-position: center;
+	height: 1200;
+	width: 1500;
+}
+QPushButton#bigB {
+	height: 200px;
+	background-color: red;
+	margin-top: 64px;
+	font-family: Helvetica;
+	font-size: 64px;
+	color: white
+}
+QPushButton#smallB {
+	height: 20px;
+	background-color: red;
+	margin-top: 2px;
+	font-family: Helvetica;
+	font-size: 10px;
+	color: white
+}
+QLabel{
+	height: 40px;
+	font-family: Helvetica;
+	font-size: 16px;
+	color: white;
+}
+QLabel#node_name{
+	width: 50px;
+	background-color: red;
+}
+QMenuBar {
+	background-color: #3e605d; /* #7F7 is cute btw */
+}
+QDialog {
+	background-color: #1f2827;
+}
+ImageViewer {
+	height: 300px;
+	resize: horizontal;
+	background-color: transparent;
+}
+QLineEdit{
+	/* border: 2px solid #3e605d; */
+	color: white;
+	font-size: 24px;
+}
+QLineEdit#dEdit{
+	/* border: 2px solid #3e605d; */
+	color: #3e605d;
+	font-size: 24px;
+}
+QCheckBox::indicator{
+	border: 4px solid #3e605d;
+}
+QCheckBox{
+	color: white;
+}
+QCheckBox::indicator:checked{
+	background-color: #3e605d;
+}
+QScrollArea {
+	background-color: transparent;
+}
+QScrollBar {
+	border: 1px solid darkgreen;
+	background-color : lightgreen;
+}
+QScrollBar::handle {
+	background : #3e605d;
+}
+/*QScrollBar::handle::pressed {
+	background : #173024;
+}*/

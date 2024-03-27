@@ -1,0 +1,10 @@
+A1 3 2 1 
+R1 4 5 91K
+R2 6 7 24K
+R3 8 9 5.1K
+R4 10 ref 1K
+C1 11 12 0.47u
+C2 13 14 33n
+D1 15 16 1
+******
+* Laboratory work "Introduction to Operational Amplifier"
